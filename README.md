@@ -17,12 +17,12 @@ To run the cGAN-Downscaling model, follow these steps:
     pip install -r requirements.txt
     ```
 ## Usage
-
+### Training
 Run the Training script:
     ```bash
     python Training_ERA5-DownGAN.py
     ```
-
+### Test
 Run the Test script:
     ```bash
     python Test_ERA5-DownGAN.py
