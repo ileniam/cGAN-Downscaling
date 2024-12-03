@@ -19,20 +19,17 @@ To run the cGAN-Downscaling model, follow these steps:
 ## Usage
 #### Pre-processing
 Run the Normalization script:
-```
-bash
+```bash
 python Normalization_ERA5-DownGAN.py
 ```
 #### Training
 Run the Training script:
-```
-bash
+```bash
 python Training_ERA5-DownGAN.py
 ```
 #### Test
 Run the Test script:
-```
-bash
+```bash
 python Test_ERA5-DownGAN.py
 ```
 
