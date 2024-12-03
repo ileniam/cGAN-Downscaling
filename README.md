@@ -17,7 +17,7 @@ To run the cGAN-Downscaling model, follow these steps:
     pip install -r requirements.txt
     ```
 ## Usage
-### Pre-processing
+#### Pre-processing
 Run the Normalization script:
 ```
 bash
