@@ -1,5 +1,5 @@
 # cGAN-Downscaling
-cGAN-Downscaling is a model based on a Conditional Generative Adversarial Network (cGAN) structure, specifically designed for statistical climate downscaling. It produces ERA5-DownGAN dataset, high-resolution (~2.2 km) daily 2m temperature and precipitation datasets for the Italian Peninsula from ERA5 (~31 km), offering low computational costs and flexible adaptability.
+cGAN-Downscaling is a model based on a Conditional Generative Adversarial Network (cGAN) structure, specifically designed for statistical climate downscaling. It produces ERA5-DownGAN dataset, high-resolution (~2.2 km) daily 2m temperature for the Italian Peninsula from ERA5 (~31 km), offering low computational costs and flexible adaptability.
 ## Installation
 
 To run the cGAN-Downscaling model, follow these steps:
@@ -40,16 +40,17 @@ python Test_ERA5-DownGAN.py
 ```
 
 ## Results
-During the training phase, the model optimizes both the generator and discriminator networks. The optimal generator, learned through training, is then used to generate high-resolution downscaled data from ERA5 during the testing phase. Specifically, the trained generator applies to the ERA5 dataset from the test phase to produce a new downscaled dataset at 2.2 km resolution. 
+During the training phase, the model optimizes both the generator and discriminator networks. The optimal generator, learned through training, is then used to generate high-resolution downscaled data from ERA5 during the testing phase. Specifically, the trained generator applies to the ERA5 dataset from the test phase to produce a new downscaled dataset at 2.2 km resolution.
+
 ## Example of validation comparing dynamical (VHR_REA-IT) and statistical downscaling based cGAN (ERA5-DownGAN)
 
- #### Random day from the test period 2m-temperature (ERA5, VHR_REA-IT, ERA5-DownGAN)
+ #### Random day from the test period of 2m-temperature (a, ERA5; b, VHR_REA-IT; c, ERA5-DownGAN)
  ![Immagine1](https://github.com/user-attachments/assets/cbb92fe0-92c3-4ab4-9c7d-69ea25eed2f8)
  
-#### Error Metrics 2m-temperature(a, BIAS; b, MAE; c, RMSE; d, correlation)
+#### Error Metrics of 2m-temperature(a, BIAS; b, MAE; c, RMSE; d, correlation)
  ![Fig_6](https://github.com/user-attachments/assets/01641900-9aa4-4931-bf9b-aa900ce3963f)
  
-#### PDFs (ERA5 in green; VHR_REA-IT in blue, ERA5-DownGAN in orange)
+#### PDFs of 2m-tmperature (ERA5 in green; VHR_REA-IT in blue, ERA5-DownGAN in orange)
  ![Fig_11](https://github.com/user-attachments/assets/2e3e54bb-a4e3-44b1-bcd0-3e90175ef066)
 
 ## License (None in peer review process)
