@@ -19,19 +19,22 @@ To run the cGAN-Downscaling model, follow these steps:
 ## Usage
 ### Pre-processing
 Run the Normalization script:
-    ```bash
-    python Normalization_ERA5-DownGAN.py
-    ```
+```
+bash
+python Normalization_ERA5-DownGAN.py
+```
 #### Training
 Run the Training script:
-    ```bash
-    python Training_ERA5-DownGAN.py
-    ```
+```
+bash
+python Training_ERA5-DownGAN.py
+```
 #### Test
 Run the Test script:
-    ```bash
-    python Test_ERA5-DownGAN.py
-    ```
+```
+bash
+python Test_ERA5-DownGAN.py
+```
 
 ## Results
 During the training phase, the model optimizes both the generator and discriminator networks. The optimal generator, learned through training, is then used to generate high-resolution downscaled data from ERA5 during the testing phase. Specifically, the trained generator applies to the ERA5 dataset from the test phase to produce a new downscaled dataset at 2.2 km resolution. 
