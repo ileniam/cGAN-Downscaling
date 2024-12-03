@@ -42,7 +42,11 @@ python Test_ERA5-DownGAN.py
 ## Results
 During the training phase, the model optimizes both the generator and discriminator networks. The optimal generator, learned through training, is then used to generate high-resolution downscaled data from ERA5 during the testing phase. Specifically, the trained generator applies to the ERA5 dataset from the test phase to produce a new downscaled dataset at 2.2 km resolution. 
 ## Example of validation comparing dynamical (VHR_REA-IT) and statistical downscaling based cGAN (ERA5-DownGAN)
-#### Error Metrics (a, BIAS; b, RMSE; c, MAE; d, correlation)
+
+ #### Random day from the test period (ERA5, VHR_REA-IT, ERA5-DownGAN)
+ ![Immagine1](https://github.com/user-attachments/assets/cbb92fe0-92c3-4ab4-9c7d-69ea25eed2f8)
+ 
+#### Error Metrics (a, BIAS; b, MAE; c, RMSE; d, correlation)
  ![Fig_6](https://github.com/user-attachments/assets/01641900-9aa4-4931-bf9b-aa900ce3963f)
 ## License (None in peer review process)
 
