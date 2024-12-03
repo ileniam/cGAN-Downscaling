@@ -7,8 +7,8 @@ To run the cGAN-Downscaling model, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/ileniam/cGAN-Downscaling.git
-    cd cGAN-Downscaling
+    git clone https://github.com/ileniam/ERA5-DownGAN.git
+    cd ERA5-DownGAN
     ```
 
 2. Install the dependencies:
