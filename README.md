@@ -16,16 +16,16 @@ To run the cGAN-Downscaling model, follow these steps:
     ```bash
     pip install -r requirements.txt
     ```
-# Usage
+## Usage
 
-3. Run the Training script:
+Run the Training script:
     ```bash
     python Training_ERA5-DownGAN.py
     ```
 
-4. Run the Test script:
+Run the Test script:
     ```bash
     python Test_ERA5-DownGAN.py
     ```
-# License (None in peer review process)
+## License (None in peer review process)
 This repository is private and shared exclusively for the peer review process. Please refrain from redistributing, modifying, or using the code for any other purposes until the paper is published. After publication, the code and datasets used will be made publicly available under the Apache License 2.0 to ensure the complete replicability of the experiments conducted. Additionally, the ERA5-DownGAN dataset produced will be uploaded to the CMCC Data Delivery System (DDS) and associated with a DOI.
