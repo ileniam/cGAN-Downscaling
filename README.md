@@ -2,7 +2,7 @@
 cGAN-Downscaling is a model based on a Conditional Generative Adversarial Network (cGAN) structure, specifically designed for statistical climate downscaling. It produces ERA5-DownGAN dataset, high-resolution (~2.2 km) daily 2m temperature and precipitation datasets for the Italian Peninsula from ERA5 (~31 km), offering low computational costs and flexible adaptability.
 # Installation
 To run cGAN-Downscaling Model is sufficient to clone cGAN environment and run the scripts.
-git clone https://github.com/ileniam/cGAN-Downscaling.git
+```git clone https://github.com/ileniam/cGAN-Downscaling.git
 cd cGAN-Downscaling
 make install
 # License (None in peer review process)
