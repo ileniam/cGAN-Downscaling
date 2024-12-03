@@ -5,5 +5,6 @@ To run cGAN-Downscaling Model is sufficient to clone cGAN environment and run th
 ```git clone https://github.com/ileniam/cGAN-Downscaling.git
 cd cGAN-Downscaling
 make install
+```
 # License (None in peer review process)
 This repository is private and shared exclusively for the peer review process. Please refrain from redistributing, modifying, or using the code for any other purposes until the paper is published. After publication, the code and datasets used will be made publicly available under the Apache License 2.0 to ensure the complete replicability of the experiments conducted. Additionally, the ERA5-DownGAN dataset produced will be uploaded to the CMCC Data Delivery System (DDS) and associated with a DOI.
