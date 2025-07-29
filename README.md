@@ -53,6 +53,20 @@ During the training phase, the model optimizes both the generator and discrimina
 #### PDFs of 2m-tmperature (ERA5 in green; VHR_REA-IT in blue, ERA5-DownGAN in orange)
  ![Fig_11](https://github.com/user-attachments/assets/2e3e54bb-a4e3-44b1-bcd0-3e90175ef066)
 
-## License (None in peer review process)
+## License (Usage allowed upon citation)
+This repository is publicly available. However, the use of the code and the associated dataset is permitted only upon proper citation of the methodological paper:
 
-This repository is private and shared exclusively for the peer review process. Please refrain from redistributing, modifying, or using the code for any other purposes until the paper is published. After publication, the code and datasets used will be made publicly available under the Apache License 2.0 to ensure the complete replicability of the experiments conducted. Additionally, the ERA5-DownGAN dataset produced will be uploaded to the CMCC Data Delivery System (DDS) and associated with a DOI.
+Ilenia Manco, Walter Riviera, Andrea Zanetti, Marco Briscolini, Paola Mercogliano, Antonio Navarra,
+A new conditional generative adversarial neural network approach for statistical downscaling of the ERA5 reanalysis over the Italian Peninsula,
+Environmental Modelling & Software,
+Volume 188,
+2025,
+106427,
+ISSN 1364-8152,
+https://doi.org/10.1016/j.envsoft.2025.106427.
+
+The code is released under the Apache License 2.0. The ERA5-DownGAN dataset will be made available through the CMCC Data Delivery System (DDS) and linked to a DOI for full reproducibility.
+
+Please refrain from redistributing, modifying, or using the materials without citing the publication above.
+
+
